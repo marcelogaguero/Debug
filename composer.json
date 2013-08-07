@@ -1,0 +1,19 @@
+{
+    "name": "mga/dump",
+    "description": "Custom var_dump",
+    "keywords": ["console"],
+    "homepage": "https://github.com/marcelogaguero/console",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Marcelo Aguero",
+        "email": "marcelogaguero@hotmail.com",
+        "homepage": "https://twitter.com/marcelogaguero"
+    }],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/dump.php"]
+    }
+}
